@@ -1,10 +1,11 @@
 {
   "name": "react-es6-demo",
   "version": "0.1.0",
-  "description": "",
+  "description": "Showcasing how to use React with ECMAScript 6",
   "main": "index.jsx",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mkdir -p dist && browserify index.jsx --debug --extension=.jsx > dist/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -19,10 +20,14 @@
   "devDependencies": {
     "babelify": "^5.0.3",
     "browserify": "^9.0.3",
-    "gulp": "^3.8.11",
     "vinyl-source-stream": "^1.0.0"
   },
   "dependencies": {
     "react": "^0.13.0-rc2"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
   }
 }
