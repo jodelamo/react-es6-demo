@@ -19,8 +19,7 @@
   "homepage": "https://github.com/jlowgren/react-es6-demo",
   "devDependencies": {
     "babelify": "^5.0.3",
-    "browserify": "^9.0.3",
-    "vinyl-source-stream": "^1.0.0"
+    "browserify": "^9.0.3"
   },
   "dependencies": {
     "react": "^0.13.0-rc2"
