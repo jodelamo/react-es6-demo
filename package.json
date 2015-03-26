@@ -2,10 +2,10 @@
   "name": "react-es6-demo",
   "version": "0.1.0",
   "description": "Showcasing how to use React with ECMAScript 6",
-  "main": "index.jsx",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mkdir -p dist && browserify index.jsx --debug --extension=.jsx > dist/bundle.js"
+    "build": "mkdir -p dist && ./node_modules/webpack/bin/webpack.js"
   },
   "repository": {
     "type": "git",
@@ -18,15 +18,11 @@
   },
   "homepage": "https://github.com/jlowgren/react-es6-demo",
   "devDependencies": {
-    "babelify": "^5.0.3",
-    "browserify": "^9.0.3"
+    "babel-core": "^4.7.16",
+    "babel-loader": "^4.2.0",
+    "webpack": "^1.7.3"
   },
   "dependencies": {
     "react": "^0.13.0-rc2"
-  },
-  "browserify": {
-    "transform": [
-      "babelify"
-    ]
   }
 }
