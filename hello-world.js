@@ -1,4 +1,4 @@
-/* jshint globalstrict: true, esnext: true, browser: true */
+/* jshint globalstrict: true, esnext: true */
 
 'use strict';
 
