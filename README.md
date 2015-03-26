@@ -20,7 +20,7 @@ An associated blog post can be found [here](http://www.jayway.com/2015/03/04/usi
 
 The gist of it is this:
 
-* Using [browserify](http://browserify.org/), traverse the dependency tree.
-* With the help of [babelify](https://github.com/babel/babelify), transpile any occurences of ECMAScript 6 syntax.
+* Using [webpack](http://webpack.github.io/), traverse the dependency tree.
+* With the help of [babel](https://babeljs.io/), transpile any occurences of ECMAScript 6 syntax.
 * Output the result to `dist/bundle.js`.
 
