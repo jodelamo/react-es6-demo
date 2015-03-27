@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mkdir -p dist && ./node_modules/webpack/bin/webpack.js"
+    "build": "mkdir -p dist && ./node_modules/webpack/bin/webpack.js --progress "
   },
   "repository": {
     "type": "git",
