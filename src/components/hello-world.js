@@ -1,8 +1,8 @@
 'use strict';
 
-import React from 'react';
+import { Component } from 'react';
 
-class HelloWorld extends React.Component {
+class HelloWorld extends Component {
   render() {
     return <p>Hello, world!</p>;
   }

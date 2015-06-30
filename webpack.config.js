@@ -7,7 +7,7 @@ export default {
   entry: {
     app: [
       'webpack/hot/dev-server',
-      './index.js'
+      './src/index.js'
     ]
   },
   output: {
