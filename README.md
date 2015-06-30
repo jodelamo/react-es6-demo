@@ -1,6 +1,6 @@
 # React with ECMAScript 6
 
-Showcasing how to use React with ECMAScript 6.
+Showcasing how to use React with ECMAScript 6. Can be used as a starting point for a React app.
 
 ## Usage
 
