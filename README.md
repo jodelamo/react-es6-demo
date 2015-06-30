@@ -6,21 +6,15 @@ Showcasing how to use React with ECMAScript 6.
 
 ```zsh
 npm install
-npm run build
+npm start
 ```
 
-Optionally, to run from a web server:
+Navigate to [http://localhost:8080/](http://localhost:8080/).
 
-```zsh
-npm install -g live-server
-live-server
-```
-
-An associated blog post can be found [here](http://www.jayway.com/2015/03/04/using-react-with-ecmascript-6/).
+An associated blog post can be found [here](http://www.jayway.com/2015/03/04/using-react-with-ecmascript-6/), though it may be outdated compared to this repository.
 
 The gist of it is this:
 
 * Using [webpack](http://webpack.github.io/), traverse the dependency tree.
 * With the help of [babel](https://babeljs.io/), transpile any occurences of ECMAScript 6 syntax.
-* Output the result to `dist/bundle.js`.
-
+* Output the result to the `build` directory and serve it.
