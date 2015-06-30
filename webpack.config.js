@@ -1,19 +1,28 @@
-/* jshint globalstrict: true, esnext: true */
-/* global __dirname, module */
-
 'use strict';
 
-module.exports = {
-  context: __dirname + '/',
-  entry: './index',
+import webpack from 'webpack';
+
+export default {
+  devtool: 'source-map',
+  entry: {
+    app: [
+      'webpack/hot/dev-server',
+      './index.js'
+    ]
+  },
   output: {
-    path: __dirname + '/dist',
+    path: './build',
     filename: 'bundle.js'
   },
   module: {
+    preLoaders: [
+      { text: /\.js$/, loader: 'eslint-loader', exclude: /node_modules/ }
+    ],
     loaders: [
       { test: /\.js$/, loader: 'babel-loader' }
     ]
-  }
+  },
+  plugins: [
+    new webpack.NoErrorsPlugin()
+  ]
 };
-

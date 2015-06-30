@@ -1,0 +1,60 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "camelcase": [2, {
+      "properties": "always"
+    }],
+    "comma-spacing": [2, {
+      "before": false, "after": true
+    }],
+    "comma-style": [2, "last"],
+    "eol-last": 2,
+    "eqeqeq": 2,
+    "indent": [2, 2],
+    "key-spacing": [2, {
+      "beforeColon": false,
+      "afterColon": true
+    }],
+    "new-cap": 2,
+    "new-parens": 2,
+    "no-lonely-if": 2,
+    "no-loop-func": 2,
+    "no-mixed-spaces-and-tabs": 2,
+    "no-multiple-empty-lines": 2,
+    "no-multi-spaces": 2,
+    "no-trailing-spaces": 2,
+    "no-redeclare": 2,
+    "no-shadow": 2,
+    "no-undef": 2,
+    "no-underscore-dangle": 2,
+    "no-unused-vars": 2,
+    "no-use-before-define": 2,
+    "quotes": [2, "single", "avoid-escape"],
+    "radix": 2,
+    "semi": 2,
+    "semi-spacing": [2, {
+      "before": false,
+      "after": true
+    }],
+    "space-after-keywords": [2, "always"],
+    "space-before-blocks": [2, "always"],
+    "space-before-function-paren": [2, {
+      "anonymous": "always",
+      "named": "never"
+    }],
+    "space-infix-ops": 2,
+    "space-in-parens": [2, "never"],
+    "spaced-line-comment": [2, "always"],
+    "space-unary-ops": [2, {
+      "words": true,
+      "nonwords": false
+    }]
+  }
+}

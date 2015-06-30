@@ -1,5 +1,3 @@
-/* jshint globalstrict: true, esnext: true */
-
 'use strict';
 
 import React from 'react';
@@ -11,4 +9,3 @@ class HelloWorld extends React.Component {
 }
 
 export default HelloWorld;
-

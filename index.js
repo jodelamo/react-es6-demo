@@ -1,5 +1,3 @@
-/* jshint globalstrict: true, esnext: true, browser: true */
-
 'use strict';
 
 import React from 'react';
@@ -9,4 +7,3 @@ React.render(
   <HelloWorld />,
   document.getElementById('body')
 );
-
