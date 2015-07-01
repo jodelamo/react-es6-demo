@@ -15,7 +15,7 @@ export default {
   },
   module: {
     preLoaders: [
-      { text: /\.js$/, loader: 'eslint-loader', exclude: /node_modules|\.css/ }
+      { test: /\.js$/, loader: 'eslint-loader', exclude: /node_modules/ }
     ],
     loaders: [
       { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ },
