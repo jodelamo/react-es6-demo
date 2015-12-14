@@ -51,7 +51,7 @@
     }],
     "space-infix-ops": 2,
     "space-in-parens": [2, "never"],
-    "spaced-line-comment": [2, "always"],
+    "spaced-comment": [2, "always"],
     "space-unary-ops": [2, {
       "words": true,
       "nonwords": false
