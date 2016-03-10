@@ -1,12 +1,8 @@
 'use strict';
 
-import React, { Component } from 'react';
+import React from 'react';
 import './hello-world.css';
 
-class HelloWorld extends Component {
-  render() {
-    return <h1>Hello, world!</h1>;
-  }
-}
+const HelloWorld = () => <h1>Hello, World</h1>;
 
 export default HelloWorld;

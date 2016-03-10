@@ -1,11 +1,11 @@
 {
   "name": "react-es6-demo",
   "version": "0.1.0",
-  "description": "Showcasing how to use React with ECMAScript 6",
+  "description": "Showcasing how to use React with ECMAScript 2015",
   "main": "src/index.js",
   "scripts": {
-    "build": "babel-node -- ./node_modules/.bin/webpack --progress",
-    "start": "babel-node -- ./node_modules/.bin/webpack-dev-server --progress"
+    "build": "babel-node -- ./node_modules/.bin/webpack",
+    "start": "babel-node -- ./node_modules/.bin/webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -34,7 +34,7 @@
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
-    "react": "^0.14.3",
-    "react-dom": "^0.14.3"
+    "react": "^15.0.0-rc.1",
+    "react-dom": "^15.0.0-rc.1"
   }
 }
